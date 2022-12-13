@@ -1,0 +1,73 @@
+.greeting {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 3% 5%;
+}
+.greetwrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: center;
+}
+.greetwrapper h1 {
+  font-size: var(--fs-l);
+  margin: 1rem 0;
+  font-family: var(--ff-heading);
+}
+.greetwrapper h2 {
+  margin: 1rem 0;
+  font-size: var(--fs-500);
+}
+.contactBtn {
+  padding: 1rem;
+  font-size: var(--fs-400);
+  border-radius: 0.5rem;
+  background: var(--text);
+  color: var(--accent1);
+  width: 13rem;
+  transition: background 300ms;
+  outline: none;
+  border: 0.2rem solid var(--highlight);
+  margin-top:1rem;
+  margin-bottom: 3rem;
+}
+.contactBtn:hover {
+  background: var(--accent1);
+  color: var(--text);
+}
+
+.imgwrapper {
+    height:auto;
+    width:40%;
+    max-width:400px;
+  animation: person 2500ms alternate infinite;
+}
+.imgwrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media (min-width: 700px) {
+  .greeting {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .greetwrapper {
+    align-items: flex-start;
+    text-align: start;
+    width:40%;
+  }
+  .imgwrapper {
+    width:40%;
+  }
+}
+
+@keyframes person {
+  to {
+    transform: translateY(20px);
+  }
+}

@@ -1,0 +1,59 @@
+.icon {
+    font-size:var(--fs-icon);
+}
+.icon span {
+    transition: color 200ms;
+}
+
+.pop {
+    font-size:var(--fs-300);
+}
+
+.html:hover {
+    color:rgb(253, 93, 0);
+}
+
+.css:hover {
+    color:rgb(38, 159, 219);
+}
+
+.javascript:hover {
+    color:rgb(242, 230, 16);
+}
+.ReactJS:hover {
+    color:rgb(22, 175, 226);
+}
+
+.bootstrap:hover {
+    color:rgb(80, 34, 160);
+}
+
+.figma:hover {
+    color:orangered;
+}
+
+.materialUI:hover {
+    color:rgb(28, 28, 152);
+}
+.NPM:hover {
+    color:rgb(209, 29, 47);
+}
+
+.Git:hover {
+    color:rgb(219, 61, 61);
+}
+
+.Node:hover {
+    color:rgb(48, 191, 48);
+}
+
+.Strapi:hover {
+    color:rgb(163, 32, 163);
+}
+
+.C-plus-plus-lang:hover {
+    color:rgb(32, 111, 180);
+}
+.Postman:hover {
+    color:rgb(233, 162, 31);
+}

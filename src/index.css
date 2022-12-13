@@ -1,13 +1,110 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Space+Grotesk:wght@300;400;500&display=swap');
+
+:root {
+  --drkblue : #251749;
+  --lighterBlue: #263159;
+  --lightestBlue: #495579;
+  --cream : #FFFBEB;
+  --highlightDrk:rgb(122, 225, 122);
+  --highlightLight:rgb(21, 77, 182);
+  --ff-heading: 'Lora', serif;
+  --ff-body: 'Space Grotesk', sans-serif;
+  --fs-icon:3.2rem;
+  --fs-xl:2.1rem;
+  --fs-l:1.9rem;
+  --fs-600:1.6rem;
+  --fs-500:1.5rem;
+  --fs-400:1.2rem;
+  --fs-300:1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+[color-scheme="light"] {
+  --text: var(--drkblue);
+  --accent1:var(--cream);
+  --accent2:var(--lighterBlue);
+  --accent3:var(--lightestBlue);
+  --highlight: var(--highlightLight);
+}
+
+[color-scheme="dark"] {
+  --text:var(--cream);
+  --accent1:var(--drkblue);
+  --accent2:var(--lighterBlue);
+  --accent3:var(--lightestBlue);
+  --highlight:var(--highlightDrk);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: var(--drkblue);
+    --accent1:var(--cream);
+    --accent2:var(--lighterBlue);
+    --accent3:var(--lightestBlue);
+    --highlight: var(--highlightLight);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text:var(--cream);
+    --accent1:var(--drkblue);
+    --accent2:var(--lighterBlue);
+    --accent3:var(--lightestBlue);
+    --highlight:var(--highlightDrk);
+  }
+}
+
+@media (min-width:1100px) {
+  :root {
+    --fs-xl:2.3rem;
+    --fs-l:2.1rem;
+    --fs-600:1.8rem;
+    --fs-500:1.7rem;
+    --fs-400:1.4rem;
+  }
+}
+
+@media (min-width:1500px) {
+  :root {
+    --fs-xl:2.5rem;
+    --fs-l:2.3rem;
+    --fs-600:2rem;
+    --fs-500:1.9rem;
+    --fs-400:1.6rem;
+  }
+}
+
+@media (min-width:2000px) {
+  :root {
+    --fs-xl:2.7rem;
+    --fs-l:2.5rem;
+    --fs-600:2.2rem;
+    --fs-500:2rem;
+    --fs-400:1.8rem;
+  }
+}
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;
+  height:100vh;
+  font-family: var(--ff-body);
+  font-size:16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  width:100%;
+  color:var(--text);
+  background:var(--accent1);
+
 }
