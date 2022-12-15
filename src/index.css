@@ -16,23 +16,12 @@
   --fs-500:1.5rem;
   --fs-400:1.2rem;
   --fs-300:1rem;
+  --icon-dark: url('./Assets/exclamation-alert-svgrepo-com.svg');
+  --icon-light: url('./Assets/exclamation-mark-svgrepo-com.svg');
+  --cap-dark: url('./Assets/darkcap.svg');
+  --cap-light:url('./Assets/lightcap.png');
 }
 
-[color-scheme="light"] {
-  --text: var(--drkblue);
-  --accent1:var(--cream);
-  --accent2:var(--lighterBlue);
-  --accent3:var(--lightestBlue);
-  --highlight: var(--highlightLight);
-}
-
-[color-scheme="dark"] {
-  --text:var(--cream);
-  --accent1:var(--drkblue);
-  --accent2:var(--lighterBlue);
-  --accent3:var(--lightestBlue);
-  --highlight:var(--highlightDrk);
-}
 
 
 @media (prefers-color-scheme: light) {
@@ -42,6 +31,8 @@
     --accent2:var(--lighterBlue);
     --accent3:var(--lightestBlue);
     --highlight: var(--highlightLight);
+    --icon:var(--icon-light);
+    --cap-img:var(--cap-light);
   }
 }
 
@@ -52,7 +43,29 @@
     --accent2:var(--lighterBlue);
     --accent3:var(--lightestBlue);
     --highlight:var(--highlightDrk);
+    --icon:var(--icon-dark);
+    --cap-img:var(--cap-dark);
   }
+}
+
+[color-scheme="light"] {
+  --text: var(--drkblue);
+  --accent1:var(--cream);
+  --accent2:var(--lighterBlue);
+  --accent3:var(--lightestBlue);
+  --highlight: var(--highlightLight);
+  --icon:var(--icon-light);
+  --cap-img:var(--cap-light);
+}
+
+[color-scheme="dark"] {
+  --text:var(--cream);
+  --accent1:var(--drkblue);
+  --accent2:var(--lighterBlue);
+  --accent3:var(--lightestBlue);
+  --highlight:var(--highlightDrk);
+  --icon:var(--icon-dark);
+  --cap-img:var(--cap-dark);
 }
 
 @media (min-width:1100px) {
@@ -106,5 +119,5 @@ body {
   width:100%;
   color:var(--text);
   background:var(--accent1);
-
+  overflow-x:hidden;
 }

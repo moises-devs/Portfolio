@@ -8,8 +8,10 @@ import Experience from "./Pages/Experience/Experience";
 import Education from "./Pages/Education/Education";
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 function App() {
   const ctx = useContext(themeCtx);
+  console.log(ctx);
   return (
     <>
       <Header />
@@ -20,6 +22,7 @@ function App() {
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
+      <Footer />
     </>
   );
 }

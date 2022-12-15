@@ -15,12 +15,12 @@ section h1 {
     flex-flow:column nowrap;
     align-items:center;
 }
-.descriptionlist {
-    margin:0 1.3rem;
+.contentdetails {
+position:relative;
+padding:0 1.1rem;
 }
 .descriptionitem{
     list-style:none;
-    position:relative;
     margin:.5rem 0;
     padding:0;
     font-size:var(--fs-400);
@@ -30,10 +30,10 @@ section h1 {
   content: '';
   display: inline-block;
   position:absolute;
-  left:-13%;
+  left:-5%;
   height: 30px;
   width: 30px;
-  background-image: url('../../Assets/exclamation-mark-svgrepo-com.svg');
+  background-image:  var(--icon);
 }
 .imgwrapper {
     width:60%;
@@ -58,10 +58,3 @@ section h1 {
         flex-flow:row nowrap;
     }
   }
-
-
-@media (prefers-color-scheme: dark) {
-    .descriptionitem::before {
-        background-image: url('../../Assets/exclamation-alert-svgrepo-com.svg');
-    }
-}
