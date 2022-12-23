@@ -1,6 +1,12 @@
 .listwrapper {
     display:flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: center;
     margin:2rem 0;
+}
+
+@media (min-width:768px) {
+    .listwrapper {
+        justify-content: flex-start;
+    }
 }

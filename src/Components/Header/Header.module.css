@@ -1,4 +1,4 @@
-header {
+.heading {
     display:flex;
     flex-flow:column nowrap;
     align-items: flex-start;
@@ -16,9 +16,7 @@ header {
 .labelswitch span {
     display:none;
 }
-.switch {
-    outline:.1rem solid var(--text);
-}
+
 
 .logo {
     font-size:var(--fs-600);
@@ -106,7 +104,7 @@ li:hover .navLink {
     font-size:var(--fs-400);
 }
 @media (min-width:768px) {
-    header {
+    .heading {
         flex-flow: row nowrap;
         justify-content: space-between;
         align-items:center;

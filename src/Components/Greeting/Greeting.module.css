@@ -61,9 +61,12 @@
     align-items: flex-start;
     text-align: start;
     width:40%;
+    margin: 0 auto;
+    
   }
   .imgwrapper {
     width:40%;
+    margin: 0 auto;
   }
 }
 

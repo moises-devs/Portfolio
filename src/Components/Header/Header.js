@@ -4,7 +4,7 @@ import { SlMenu } from "react-icons/sl";
 import { AiOutlineClose } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import Switch from "react-switch";
-import { BsSun , BsFillMoonFill, BsMoonFill} from "react-icons/bs";
+import { BsSun , BsMoonFill} from "react-icons/bs";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [darkModeOn, setDarkModeOn] = useState(false);
@@ -35,7 +35,7 @@ const Header = () => {
     return theme;
   };
   return (
-    <header className={`${showMenu ? styles["show-nav"] : null}`}>
+    <header className={styles.heading + " " + (showMenu ? styles["show-nav"] : '')}>
       <div className={styles.logo}>
         <span> Moises.L() </span>
       </div>
