@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./EducationGreeting.module.css";
-import { FaGraduationCap } from "react-icons/fa";
+import books from "../../Assets/casual-life-3d-graduates-hat-and-books.png";
 function EducationGreeting() {
   return (
     <section className={styles.greetingwrapper}>
-      <FaGraduationCap className={styles.icon} />
+      <div className={styles.imgwrapper}>
+        <img src={books} alt="books layer on top of eachother"/>
+      </div>
       <div className={styles.content}>
         <div className={styles.wrappercontent}>
           <h1 className={styles.heading1}> Education </h1>

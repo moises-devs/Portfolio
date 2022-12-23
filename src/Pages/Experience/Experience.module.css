@@ -1,0 +1,70 @@
+.wrapper {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center; /* trying to add global dynamic margin */
+    margin:2rem 5%;
+    padding:0;
+}
+.headingwrapper {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+}
+.imgwrapper {
+    width:40%;
+}
+.imgwrapper img {
+    max-height: 100%;
+    width:100%;
+}
+.heading {
+    width:100%;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    text-align: center;
+    align-self:flex-start;
+}
+.title {
+    margin-bottom:0;
+    font-size:var(--fs-l);
+}
+.subtitle {
+    margin:1rem 0;
+    margin-bottom:0;
+    font-size:var(--fs-600);
+}
+.details {
+    margin:1rem 0;
+    font-size:var(--fs-300);
+}
+
+
+/* increasing margins for responsive content */
+@media (min-width: 1024px ) {
+    .wrapper {
+        margin: 1.5% 10%;
+    }
+    .headingwrapper {
+        flex-flow:row nowrap;
+        justify-content: space-between;
+    }
+    .imgwrapper {
+        width:20%;
+        max-width:500px;
+    }
+    .heading {
+        width:50%;
+    }
+}
+
+@media (min-width:1520px) {
+    .wrapper {
+        margin: 2% 15%;
+    }
+    .heading {
+        align-self:center;
+    }
+}

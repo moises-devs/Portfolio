@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import styles from "./Header.module.css";
 import { SlMenu } from "react-icons/sl";
+import { AiOutlineClose } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import Switch from "react-switch";
+import { BsSun , BsFillMoonFill, BsMoonFill} from "react-icons/bs";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [checked, setChecked] = useState(false);
+  const [darkModeOn, setDarkModeOn] = useState(false);
   const showMenuHandler = () => {
     setShowMenu((prevState) => !prevState);
   };
@@ -14,13 +16,14 @@ const Header = () => {
     let newTheme = theme === "dark" ? "light" : "dark";
     localStorage.setItem("page.theme", `${newTheme}`);
     document.documentElement.setAttribute("color-scheme", `${newTheme}`);
-    setChecked((prevState) => !prevState);
+    newTheme === 'light' ? setDarkModeOn(false) : setDarkModeOn(true);
   };
-
   useEffect(() => {
     let theme = getTheme();
     document.documentElement.setAttribute("color-scheme", `${theme}`);
+    theme === 'light' ? setDarkModeOn(false) : setDarkModeOn(true);
   }, []);
+
 
   const getTheme = () => {
     let theme = window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -36,8 +39,9 @@ const Header = () => {
       <div className={styles.logo}>
         <span> Moises.L() </span>
       </div>
-      <button onClick={showMenuHandler} className={styles["menu-btn"]}>
-        <SlMenu />
+      <button onClick={showMenuHandler} className={styles["menu-btn"] + " "  + ( showMenu ? styles['menu-btn-active'] : '')}>
+        {!showMenu && <SlMenu/>}
+        {showMenu && <AiOutlineClose/>}
       </button>
       <nav>
         <ul>
@@ -101,11 +105,20 @@ const Header = () => {
               Contact & Resume{" "}
             </NavLink>{" "}
           </li>
+          <label className={styles.labelswitch}> 
+          <span>Switch for dark mode </span>
           <Switch
             className={styles.switch}
             onChange={handleChange}
-            checked={checked}
+            checked={darkModeOn}
+            offColor="#251749"
+            offHandleColor="#154db6"
+            onColor="#FFFBEB"
+            onHandleColor="#7ae17a"
+            uncheckedIcon={<BsMoonFill className={styles.toggleicon}/>}
+            checkedIcon={<BsSun  className={styles.toggleicon}/>}
           />
+          </label>
         </ul>
       </nav>
     </header>

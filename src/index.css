@@ -5,23 +5,29 @@
   --lighterBlue: #263159;
   --lightestBlue: #495579;
   --cream : #FFFBEB;
-  --highlightDrk:rgb(122, 225, 122);
-  --highlightLight:rgb(21, 77, 182);
+  --highlightDrk:#7ae17a;
+  --highlightLight:#154db6;
   --ff-heading: 'Lora', serif;
   --ff-body: 'Space Grotesk', sans-serif;
-  --fs-icon:3.2rem;
-  --fs-xl:2.1rem;
-  --fs-l:1.9rem;
-  --fs-600:1.6rem;
-  --fs-500:1.5rem;
-  --fs-400:1.2rem;
+  --fs-icon:3rem;
+  --fs-xl:2rem;
+  --fs-l:1.8rem;
+  --fs-600:1.5rem;
+  --fs-500:1.4rem;
+  --fs-400:1.1rem;
   --fs-300:1rem;
+  --fs-200:.8rem;
   --icon-dark: url('./Assets/exclamation-alert-svgrepo-com.svg');
   --icon-light: url('./Assets/exclamation-mark-svgrepo-com.svg');
   --cap-dark: url('./Assets/darkcap.svg');
   --cap-light:url('./Assets/lightcap.png');
 }
 
+/* large is being used for big titles
+600 is being used for subtitles
+300 is being used for body text
+400 is being used for minor subtitles 
+2000 is being used for small text*/
 
 
 @media (prefers-color-scheme: light) {
@@ -70,31 +76,40 @@
 
 @media (min-width:1100px) {
   :root {
-    --fs-xl:2.3rem;
-    --fs-l:2.1rem;
-    --fs-600:1.8rem;
-    --fs-500:1.7rem;
-    --fs-400:1.4rem;
+    --fs-icon:3.1rem;
+    --fs-xl:2.1rem;
+    --fs-l:2rem;
+    --fs-600:1.7rem;
+    --fs-500:1.6rem;
+    --fs-400:1.3rem;
+    --fs-300:1.1rem;
+    --fs-200:1rem
   }
 }
 
 @media (min-width:1500px) {
   :root {
-    --fs-xl:2.5rem;
-    --fs-l:2.3rem;
-    --fs-600:2rem;
-    --fs-500:1.9rem;
-    --fs-400:1.6rem;
+    --fs-icon:3.2rem;
+    --fs-xl:2.2rem;
+    --fs-l:2.1rem;
+    --fs-600:1.8rem;
+    --fs-500:1.7rem;
+    --fs-400:1.4rem;
+    --fs-300:1.2rem;
+    --fs-200:1.1rem;
   }
 }
 
 @media (min-width:2000px) {
   :root {
-    --fs-xl:2.7rem;
-    --fs-l:2.5rem;
-    --fs-600:2.2rem;
-    --fs-500:2rem;
-    --fs-400:1.8rem;
+    --fs-icon:3.3rem;
+    --fs-xl:2.3rem;
+    --fs-l:2.2rem;
+    --fs-600:1.9rem;
+    --fs-500:1.8rem;
+    --fs-400:1.5rem;
+    --fs-300:1.3rem;
+    --fs-200:1.2rem;
   }
 }
 
@@ -120,4 +135,10 @@ body {
   color:var(--text);
   background:var(--accent1);
   overflow-x:hidden;
+  position:relative;
+  transition:background 300ms, color 300ms;
+}
+
+.pagecontent {
+  padding-bottom: 60px;
 }

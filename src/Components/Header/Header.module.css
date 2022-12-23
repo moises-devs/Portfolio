@@ -10,12 +10,22 @@ header {
     /* border-bottom:.1rem solid var(--accent2); */
 }
 
-.switch {
-    outline:.1rem solid var(--text);
+.labelswitch {
     align-self:center;
 }
+.labelswitch span {
+    display:none;
+}
+.switch {
+    outline:.1rem solid var(--text);
+}
+
 .logo {
     font-size:var(--fs-600);
+}
+.toggleicon {
+    color:var(--accent1);
+    transform:translate(45%, 30%);
 }
 
 nav {
@@ -85,6 +95,15 @@ li:hover .navLink {
     top:30px;
     font-size:var(--fs-400);
     color:var(--text);
+    transform:scaleX(1);
+    transition: all 300ms;
+}
+.menu-btn-active {
+    transform:scaleX(1.2);
+}
+.icon {
+    color:white;
+    font-size:var(--fs-400);
 }
 @media (min-width:768px) {
     header {

@@ -4,7 +4,7 @@ import manDesk from "../../Assets/casual-life-3d-side-view-of-man-sitting-in-fro
 import SkillList from "./SkillList/SkillList"
 function Skills() {
   return (
-    <section>
+    <section className={styles.wrapper}>
       <h1> Here's What I do</h1>
       <div className={styles.content}>
         <div className={styles.imgwrapper}>

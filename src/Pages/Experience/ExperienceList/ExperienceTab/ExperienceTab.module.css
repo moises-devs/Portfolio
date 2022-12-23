@@ -1,0 +1,57 @@
+.wrapper{
+    padding:1rem;
+    border:.2rem solid var(--accent3);
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    margin:1.5rem 0;
+    border-radius: .5rem;
+    background:var(--text);
+    color:var(--accent1);
+}
+.imgwrapper {
+    height:55px;
+    width:60px;
+}
+
+.imgwrapper img {
+    max-height:100%;
+    width:100%;
+}
+
+.biowrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    align-self:center;
+    margin:1rem;
+}
+.description {
+    text-align:center;
+    font-size:var(--fs300);
+}
+.title {
+    font-size:var(--fs-400);
+    margin-bottom:.5rem;
+}
+.date {
+    font-size:var(--fs-200);
+    margin-bottom:.5rem;
+}
+.companyName {
+    font-size:var(--fs-300);
+}
+@media (min-width:1700px) {
+    .wrapper {
+        flex-flow:row nowrap;
+        justify-content:space-around;
+    }
+    .description {
+        align-self:center;
+        width:50%;
+        
+    }
+}

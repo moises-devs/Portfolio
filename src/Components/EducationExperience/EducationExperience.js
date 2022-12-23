@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./EducationExperience.module.css";
 import davis from "../../Assets/davis.png";
 import EducationCard from '../EducationCard/EducationCard';
+import Certifications from "../Certifications/Certifications";
 function EducationExperience() {
   return (
     <section className={styles.wrapper}>
@@ -9,7 +10,7 @@ function EducationExperience() {
       <div className={styles.content}>
       <EducationCard img={davis} title="University of California Davis"
         subtitle={'Bachelor of Science - Computer Science'} 
-        date={'09/2018 - 07/2022'}
+        date={'09/2018 - 07/2022'} link="https://www.ucdavis.edu/"
       >
         <li className={styles.listitem}>
           Throughout my time at Davis I was exposed to building web applications, mobile applications and small programming assignments.
@@ -22,6 +23,7 @@ function EducationExperience() {
           Above all my favorite topics include the disucssion of user interfaces and using technology to assist users.
         </li>
       </EducationCard>
+      <Certifications/>
       </div>
     </section>
   )
