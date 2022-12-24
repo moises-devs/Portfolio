@@ -1,0 +1,11 @@
+.wrapper {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+}
+@media (min-width:768px) {
+    .wrapper {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Greeting.module.css";
 import SocialMedia from "../SocialMedia/SocialMedia";
-import person from "../../Assets/3d-casual-life-young-man-sitting-with-a-laptop-and-waving-his-hand.png";
+import person from "../../Assets/young_man_sitting_with_a_laptop_and_waving_her_hand.png";
 function Greeting() {
   return (
     <section className={styles.greeting}>
@@ -12,7 +12,8 @@ function Greeting() {
           Front-End Developer, Always Learning
         </h2>
         <SocialMedia />
-        <button className={styles.contactBtn}> Contact me </button>
+        <a href="https://www.linkedin.com/in/moises-lopez-b20b33187/"
+        className={styles.contactBtn}> Contact me </a>
       </div>
       <div className={styles.imgwrapper}>
         <img src={person} alt="person waving"/>

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Space+Grotesk:wght@300;400;500&display=swap');
 
 :root {
-  --drkblue : #251749;
-  --lighterBlue: #263159;
-  --lightestBlue: #495579;
-  --cream : #FFFBEB;
-  --highlightDrk:#7ae17a;
-  --highlightLight:#154db6;
+  --drkblue : rgb(37, 23, 74);
+  --lighterBlue: rgb(38, 49, 89);
+  --lightestBlue: rgb(73, 85, 121);
+  --cream : rgb(255, 251, 235);
+  --highlightDrk:rgb(122, 225, 122);
+  --highlightLight:rgb(21, 77, 182);
   --ff-heading: 'Lora', serif;
   --ff-body: 'Space Grotesk', sans-serif;
   --fs-icon:3rem;

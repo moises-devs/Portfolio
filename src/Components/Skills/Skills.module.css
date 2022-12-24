@@ -30,6 +30,9 @@ padding:0 1.1rem;
     padding-left:10%;
     text-align:start;
 }
+.listwrapper {
+  margin:2rem 0;
+}
 .descriptiontitle {
   font-size:var(--fs-300)
 }

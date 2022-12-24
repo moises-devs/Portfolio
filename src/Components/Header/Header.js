@@ -5,9 +5,11 @@ import { AiOutlineClose } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import Switch from "react-switch";
 import { BsSun , BsMoonFill} from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [darkModeOn, setDarkModeOn] = useState(false);
+  const navigate = useNavigate();
   const showMenuHandler = () => {
     setShowMenu((prevState) => !prevState);
   };
@@ -37,7 +39,7 @@ const Header = () => {
   return (
     <header className={styles.heading + " " + (showMenu ? styles["show-nav"] : '')}>
       <div className={styles.logo}>
-        <span> Moises.L() </span>
+        <span onClick={() => navigate("/")}> Moises.L() </span>
       </div>
       <button onClick={showMenuHandler} className={styles["menu-btn"] + " "  + ( showMenu ? styles['menu-btn-active'] : '')}>
         {!showMenu && <SlMenu/>}

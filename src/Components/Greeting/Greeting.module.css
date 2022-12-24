@@ -32,10 +32,13 @@
   border: 0.2rem solid var(--highlight);
   margin-top:1rem;
   margin-bottom: 3rem;
+  text-decoration: none;
+  text-align: center;
 }
 .contactBtn:hover {
   background: var(--accent1);
   color: var(--text);
+  cursor:pointer;
 }
 
 .imgwrapper {
