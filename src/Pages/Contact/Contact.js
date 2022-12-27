@@ -2,9 +2,13 @@ import React from 'react'
 import styles from "./Contact.module.css";
 import man from "../../Assets/Boy White T-Shirt-2.png";
 import SocialMedia from '../../Components/SocialMedia/SocialMedia';
+import { motion } from 'framer-motion';
 function Contact() {
   return (
-    <div className={styles.wrapper}>
+    <motion.div className={styles.wrapper}
+    initial={{x:window.innerWidth}}
+    animate={{x:0}}
+    transition={{duration:0.45, ease:'easeIn'}}>
       <div className={styles.imgwrapper}>
         <img src={man} alt="moises waving hand"/>
       </div>
@@ -14,7 +18,7 @@ function Contact() {
         <SocialMedia/>
         <button className={styles.contactbtn}>Checkout my resume</button>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

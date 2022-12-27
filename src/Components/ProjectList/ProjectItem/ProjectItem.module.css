@@ -70,7 +70,7 @@
     color:var(--highlight);
 }
 .carddetails {
-    margin:1rem 0;
+    margin:2rem 0;
     font-size:var(--300);
 }
 
@@ -79,7 +79,7 @@
         flex-flow:row nowrap;
         width:90%;
         align-items: flex-start;
-        height:320px;
+        height:340px;
     }
     .imgwrapper {
         height:100%;

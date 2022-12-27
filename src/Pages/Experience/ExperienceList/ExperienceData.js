@@ -11,14 +11,14 @@ export const data = [
         role: "Full Stack Developer",
         worktype: "Office",
         description:
-          "Create interfaces and provide training to backend engineers. Resulted in responsive app completed before deadline, and fostered a strong welcoming space for prodcutivity and learning.",
+          "Create interfaces and provide training to backend engineers. Resulted in responsive app completed before deadline, and fostered a strong welcoming space for productivity and learning.",
         companyImg: davis,
         id:1,
       },
       {
         companyName: "Fostering Student Success",
         date: "Feburary 2020 - March 2022",
-        role: "Apircot Administrator",
+        role: "Apricot Administrator",
         worktype: "Work from Home/ In person Meetings",
         description:
           "Create and manage Apricot system to meet company need and train staff to use newly implemented systems/work flows. Which resulted in an increased in employee productivty and increased monitoring/meeting of company goals.  Assisted in front end task when needed, including working with wordpress, in order to establish strong branding and recruit more customers.",

@@ -16,7 +16,7 @@ function SocialMedia() {
       </li>
       <li className={styles["social-item"]}>
         <a
-          href="https://www.linkedin.com/in/moises-lopez-b20b33187/"
+          href="https://github.com/moises-devs"
           className={styles["social-link"]}
         >
           <AiFillGithub className={styles.github}  />

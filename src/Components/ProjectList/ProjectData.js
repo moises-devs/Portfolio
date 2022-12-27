@@ -22,7 +22,7 @@ export const data = [
   },
   {
     id: 2,
-    name: "Resturant Reactive Website",
+    name: "Restaurant Reactive Website",
     link: "https://moises-devs.github.io/TheValet/",
     code: "https://github.com/moises-devs/TheValet",
     img:restimg,

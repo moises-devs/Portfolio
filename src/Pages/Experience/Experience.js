@@ -2,9 +2,14 @@ import React from "react";
 import styles from "./Experience.module.css";
 import manOnDesk from "../../Assets/casual-life-3d-young-man-in-headset-using-computer.png";
 import ExperienceList from "./ExperienceList/ExperienceList";
+import { motion } from "framer-motion";
 function Experience() {
   return (
-    <section className={styles.wrapper}>
+    <motion.section className={styles.wrapper}
+    initial={{x:window.innerWidth}}
+    animate={{x:0}}
+    transition={{duration:0.45, ease:'easeIn'}}
+    >
       <div className={styles.headingwrapper}>
         <div className={styles.imgwrapper}>
           <img src={manOnDesk} alt="Man working with laptop on desk." />
@@ -24,7 +29,7 @@ function Experience() {
         </div>
       </div>
       <ExperienceList/>
-    </section>
+    </motion.section>
   );
 }
 
