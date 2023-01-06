@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a7df1425.css",
+    "main.js": "/Portfolio/static/js/main.7c375c4e.js",
+    "static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.png": "/Portfolio/static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.90da7124bd337136ca9d.png",
+    "static/media/Boy White T-Shirt-2.png": "/Portfolio/static/media/Boy White T-Shirt-2.718a9d3243828c6316c5.png",
+    "static/media/restaurant.png": "/Portfolio/static/media/restaurant.5377430b7c0cbf88e819.png",
+    "static/media/everydayculture.png": "/Portfolio/static/media/everydayculture.24d8d3e22de4c52faba3.png",
+    "static/media/casual-life-3d-graduates-hat-and-books.png": "/Portfolio/static/media/casual-life-3d-graduates-hat-and-books.317e6e39f2a391910d38.png",
+    "static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.png": "/Portfolio/static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.9bf2e6a9b167532c8874.png",
+    "static/media/casual-life-3d-young-man-in-headset-using-computer.png": "/Portfolio/static/media/casual-life-3d-young-man-in-headset-using-computer.122fd7c9741a0d8280fa.png",
+    "static/media/manworking.png": "/Portfolio/static/media/manworking.c6eaad7b7386739465e2.png",
+    "static/media/davis.png": "/Portfolio/static/media/davis.4a40d53e1726b2f6e8fe.png",
+    "static/media/Primary-Horseweb.webp": "/Portfolio/static/media/Primary-Horseweb.42d501c1abc58a84e0f3.webp",
+    "static/media/feedback.png": "/Portfolio/static/media/feedback.803473883dd57b35a593.png",
+    "static/media/full-guided-compass-logo.png": "/Portfolio/static/media/full-guided-compass-logo.d9ace6fbd2d70d404e7b.png",
+    "static/media/javascript-course-the-complete-guide.webp": "/Portfolio/static/media/javascript-course-the-complete-guide.10fda568f4c2ac46ad2a.webp",
+    "static/media/react-course-the-complete-guide.webp": "/Portfolio/static/media/react-course-the-complete-guide.467aa395f2df0a2e9da9.webp",
+    "static/media/lightcap.png": "/Portfolio/static/media/lightcap.301a432c84132fd07009.png",
+    "static/media/freecode.webp": "/Portfolio/static/media/freecode.952d9dd2ce20f0e759fe.webp",
+    "static/media/exclamation-mark-svgrepo-com.svg": "/Portfolio/static/media/exclamation-mark-svgrepo-com.209d709b6d9ce109f248.svg",
+    "static/media/exclamation-alert-svgrepo-com.svg": "/Portfolio/static/media/exclamation-alert-svgrepo-com.62f2a2bd60e36bf45322.svg",
+    "static/media/darkcap.svg": "/Portfolio/static/media/darkcap.a9736cb9ade8489781dc.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.a7df1425.css.map": "/Portfolio/static/css/main.a7df1425.css.map",
+    "main.7c375c4e.js.map": "/Portfolio/static/js/main.7c375c4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7df1425.css",
+    "static/js/main.7c375c4e.js"
+  ]
+}
