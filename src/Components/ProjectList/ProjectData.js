@@ -8,8 +8,8 @@ export const data = [
   {
     id: 1,
     name: "EverDay Culture",
-    link: "http://google.com/",
-    code: "http://google.com/",
+    link: "https://everydayculture.shop/",
+    code: "https://github.com/moises-devs/everdayculture",
     img : everdayimg,
     description:
       "Ecommerce Store fully reponsive and managed by Redux. This project emphasizes the use of React Router and state management in effort to build large applications. ",
