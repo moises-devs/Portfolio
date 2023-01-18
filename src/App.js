@@ -15,11 +15,11 @@ function App() {
         <Header />
         <AnimatePresence key={location.pathname} mode={'wait'}>
         <Routes key={location.pathname} location={location}>
-          <Route path="/Portfolio" element={<Home />} />
-          <Route path="/Portfolio/education" element={<Education />} />
-          <Route path="/Portfolio/experience" element={<Experience />} />
-          <Route path="/Portfolio/projects" element={<Projects />} />
-          <Route path="/Portfolio/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         </AnimatePresence>
         <Footer />
