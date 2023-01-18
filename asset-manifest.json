@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2c6937cb.css",
-    "main.js": "/static/js/main.88b0d989.js",
+    "main.js": "/static/js/main.123062f1.js",
     "static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.png": "/static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.90da7124bd337136ca9d.png",
     "static/media/Boy White T-Shirt-2.png": "/static/media/Boy White T-Shirt-2.718a9d3243828c6316c5.png",
     "static/media/restaurant.png": "/static/media/restaurant.5377430b7c0cbf88e819.png",
@@ -23,10 +23,10 @@
     "static/media/darkcap.svg": "/static/media/darkcap.a9736cb9ade8489781dc.svg",
     "index.html": "/index.html",
     "main.2c6937cb.css.map": "/static/css/main.2c6937cb.css.map",
-    "main.88b0d989.js.map": "/static/js/main.88b0d989.js.map"
+    "main.123062f1.js.map": "/static/js/main.123062f1.js.map"
   },
   "entrypoints": [
     "static/css/main.2c6937cb.css",
-    "static/js/main.88b0d989.js"
+    "static/js/main.123062f1.js"
   ]
 }
