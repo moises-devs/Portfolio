@@ -48,6 +48,7 @@
 * CUSTOM HTML/CSS
 
 ### What I learned
+* Enabling Fluid Typography through the use of root variables
 * Dynamically manage a site's theme based on user perferences 
 * Think more about component reusability (composition)
 
