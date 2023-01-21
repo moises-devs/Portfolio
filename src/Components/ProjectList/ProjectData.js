@@ -1,9 +1,11 @@
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt, FaReact } from "react-icons/fa";
 import { SiRedux, SiStrapi, SiMaterialui } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io";
 import everdayimg from "../../Assets/everydayculture.png";
 import restimg from "../../Assets/restaurant.png";
 import feedbackimg from "../../Assets/feedback.png";
+import tiktok from "../../Assets/tiktok.png";
 export const data = [
   {
     id: 1,
@@ -33,7 +35,21 @@ export const data = [
     ],
   },
   {
-    id: 3,
+    id:3,
+    name:"TikTok Pets",
+    link:"https://tiktokpets-stage-3-moises-knows.ecs162-s22.repl.co/",
+    code:"https://replit.com/@ecs162-s22/Web-Dev-Group#index.js",
+    img:tiktok,
+    description:
+    "Built with Node.js and serves static pages",
+    skills: [
+      {name: "Node", icon: <IoLogoNodejs/>},
+      {name: "html", icon: <AiFillHtml5 />},
+      {name: "css", icon: <FaCss3Alt /> },
+    ],
+  },
+  {
+    id: 4,
     name: "FeedBack Tracker",
     link: "https://moises-devs.github.io/Feedback-Tracker/",
     code: "https://github.com/moises-devs/Feedback-Tracker",

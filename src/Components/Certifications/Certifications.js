@@ -32,7 +32,7 @@ function Certifications() {
           title="Front End Development Libraries"
           img={freecodecamp}
           courseAuthor="FreeCodeCamp"
-          link="https://www.freecodecamp.org/Moises-devs"
+          link="https://www.freecodecamp.org/certification/Moises-devs/front-end-development-libraries"
         />
       </div>
     </section>

@@ -10,7 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import {AnimatePresence} from "framer-motion";
 function App() {
   const location = useLocation();
-  console.log('changed in package.json');
+  console.log('changed in package.json x2');
   return (
       <div className="pagecontent">
         <Header />
