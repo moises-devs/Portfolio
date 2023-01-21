@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.2c6937cb.css",
-    "main.js": "/static/js/main.123062f1.js",
+    "main.js": "/static/js/main.f5683085.js",
     "static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.png": "/static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.90da7124bd337136ca9d.png",
     "static/media/Boy White T-Shirt-2.png": "/static/media/Boy White T-Shirt-2.718a9d3243828c6316c5.png",
     "static/media/restaurant.png": "/static/media/restaurant.5377430b7c0cbf88e819.png",
+    "static/media/tiktok.png": "/static/media/tiktok.e558ba2350b7f5743296.png",
     "static/media/everydayculture.png": "/static/media/everydayculture.24d8d3e22de4c52faba3.png",
     "static/media/casual-life-3d-graduates-hat-and-books.png": "/static/media/casual-life-3d-graduates-hat-and-books.317e6e39f2a391910d38.png",
     "static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.png": "/static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.9bf2e6a9b167532c8874.png",
@@ -23,10 +24,10 @@
     "static/media/darkcap.svg": "/static/media/darkcap.a9736cb9ade8489781dc.svg",
     "index.html": "/index.html",
     "main.2c6937cb.css.map": "/static/css/main.2c6937cb.css.map",
-    "main.123062f1.js.map": "/static/js/main.123062f1.js.map"
+    "main.f5683085.js.map": "/static/js/main.f5683085.js.map"
   },
   "entrypoints": [
     "static/css/main.2c6937cb.css",
-    "static/js/main.123062f1.js"
+    "static/js/main.f5683085.js"
   ]
 }
