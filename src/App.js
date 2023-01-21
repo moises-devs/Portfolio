@@ -1,7 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Home from "./Pages/Home/Home";
-import "./index.css";
 import Experience from "./Pages/Experience/Experience";
 import Education from "./Pages/Education/Education";
 import Projects from "./Pages/Projects/Projects";
@@ -10,7 +9,6 @@ import Footer from "./Components/Footer/Footer";
 import {AnimatePresence} from "framer-motion";
 function App() {
   const location = useLocation();
-  console.log('changed in package.json x2');
   return (
       <div className="pagecontent">
         <Header />
