@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c6937cb.css",
-    "main.js": "/static/js/main.f5683085.js",
+    "main.css": "/static/css/main.1cf65ca1.css",
+    "main.js": "/static/js/main.b1ee794d.js",
     "static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.png": "/static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.90da7124bd337136ca9d.png",
     "static/media/Boy White T-Shirt-2.png": "/static/media/Boy White T-Shirt-2.718a9d3243828c6316c5.png",
     "static/media/restaurant.png": "/static/media/restaurant.5377430b7c0cbf88e819.png",
     "static/media/tiktok.png": "/static/media/tiktok.e558ba2350b7f5743296.png",
     "static/media/everydayculture.png": "/static/media/everydayculture.24d8d3e22de4c52faba3.png",
     "static/media/casual-life-3d-graduates-hat-and-books.png": "/static/media/casual-life-3d-graduates-hat-and-books.317e6e39f2a391910d38.png",
+    "static/media/2023ResumeMoisesFinal.pdf": "/static/media/2023ResumeMoisesFinal.526f2c2374333cab7be4.pdf",
     "static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.png": "/static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.9bf2e6a9b167532c8874.png",
     "static/media/casual-life-3d-young-man-in-headset-using-computer.png": "/static/media/casual-life-3d-young-man-in-headset-using-computer.122fd7c9741a0d8280fa.png",
+    "static/media/2023ResumeMoisesFinal.docx": "/static/media/2023ResumeMoisesFinal.79afc7ee4035a85418f2.docx",
     "static/media/manworking.png": "/static/media/manworking.c6eaad7b7386739465e2.png",
     "static/media/davis.png": "/static/media/davis.4a40d53e1726b2f6e8fe.png",
     "static/media/Primary-Horseweb.webp": "/static/media/Primary-Horseweb.42d501c1abc58a84e0f3.webp",
@@ -23,11 +25,11 @@
     "static/media/exclamation-alert-svgrepo-com.svg": "/static/media/exclamation-alert-svgrepo-com.62f2a2bd60e36bf45322.svg",
     "static/media/darkcap.svg": "/static/media/darkcap.a9736cb9ade8489781dc.svg",
     "index.html": "/index.html",
-    "main.2c6937cb.css.map": "/static/css/main.2c6937cb.css.map",
-    "main.f5683085.js.map": "/static/js/main.f5683085.js.map"
+    "main.1cf65ca1.css.map": "/static/css/main.1cf65ca1.css.map",
+    "main.b1ee794d.js.map": "/static/js/main.b1ee794d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c6937cb.css",
-    "static/js/main.f5683085.js"
+    "static/css/main.1cf65ca1.css",
+    "static/js/main.b1ee794d.js"
   ]
 }
