@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Greeting.module.css";
 import SocialMedia from "../SocialMedia/SocialMedia";
-import person from "../../Assets/young_man_sitting_with_a_laptop_and_waving_her_hand.png";
+import person from "../../Assets/personGreeting.png";
 function Greeting() {
   return (
     <section className={styles.greeting}>
