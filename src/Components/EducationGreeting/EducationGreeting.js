@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./EducationGreeting.module.css";
-import books from "../../Assets/casual-life-3d-graduates-hat-and-books.png";
+import books from "../../Assets/desk.png";
 function EducationGreeting() {
   return (
     <section className={styles.greetingwrapper}>

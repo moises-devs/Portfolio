@@ -12,7 +12,7 @@ function Greeting() {
           Front-End Developer, Always Learning
         </h2>
         <SocialMedia />
-        <a href="https://www.linkedin.com/in/moises-lopez-b20b33187/"
+        <a href="https://www.linkedin.com/in/moises-lopez-b20b33187/" target="_blank" rel="noreferrer"
         className={styles.contactBtn}> Contact me </a>
       </div>
       <div className={styles.imgwrapper}>

@@ -13,7 +13,10 @@ function ProjectItem(props) {
             <h2 className={styles.cardtitle}>{props.name}</h2>
             <div className={styles.linkwrapper}>
                 <p className={styles.linktext}>
-                    Check it out here <a href={props.link}> <AiOutlineLink className={styles.iconlink}/> </a>
+                    Demo here <a href={props.link}> <AiOutlineLink className={styles.iconlink}/> </a>
+                </p>
+                <p className={styles.linktext}>
+                    Code here<a href={props.code}> <AiOutlineLink className={styles.iconlink}/> </a>
                 </p>
             </div>
             <p className={styles.carddetails}>

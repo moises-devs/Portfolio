@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Experience.module.css";
-import manOnDesk from "../../Assets/casual-life-3d-young-man-in-headset-using-computer.png";
+import manOnDesk from "../../Assets/personDeskCalling.png";
 import ExperienceList from "./ExperienceList/ExperienceList";
 import { motion } from "framer-motion";
 function Experience() {

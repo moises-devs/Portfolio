@@ -9,6 +9,7 @@ function SocialMedia() {
       <li className={styles["social-item"]}>
         <a
           href="https://www.linkedin.com/in/moises-lopez-b20b33187/"
+          target="_blank" rel="noreferrer"
           className={styles["social-link"]}
         >
           <BsLinkedin className={styles.linkedin} />
@@ -17,6 +18,7 @@ function SocialMedia() {
       <li className={styles["social-item"]}>
         <a
           href="https://github.com/moises-devs"
+          target="_blank" rel="noreferrer"
           className={styles["social-link"]}
         >
           <AiFillGithub className={styles.github}  />

@@ -1,6 +1,6 @@
 import guidedLogo from "../../../Assets/full-guided-compass-logo.png";
 import fss from "../../../Assets/fss.jpg";
-import davis from "../../../Assets/Primary-Horseweb.webp";
+import davis from "../../../Assets/davis.png";
 export const data = [
   {
     title: "Work Experience",

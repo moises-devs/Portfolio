@@ -19,8 +19,6 @@
   --fs-200:.8rem;
   --icon-dark: url('./Assets/exclamation-alert-svgrepo-com.svg');
   --icon-light: url('./Assets/exclamation-mark-svgrepo-com.svg');
-  --cap-dark: url('./Assets/darkcap.svg');
-  --cap-light:url('./Assets/lightcap.png');
 }
 
 /* large is being used for big titles

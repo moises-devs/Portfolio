@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from "./Contact.module.css";
-import man from "../../Assets/Boy White T-Shirt-2.png";
+import man from "../../Assets/personStanding.png";
 import SocialMedia from '../../Components/SocialMedia/SocialMedia';
+import pdf from "../../Assets/Resume/2023ResumeMoisesFinal.pdf"
+import docx from "../../Assets/Resume/2023ResumeMoisesFinal.docx";
 import { motion } from 'framer-motion';
 function Contact() {
   return (
@@ -16,7 +18,8 @@ function Contact() {
         <h1 className={styles.title}> Contact me </h1>
         <p className={styles.bio}> You can contact me at the places mention below.</p>
         <SocialMedia/>
-        <button className={styles.contactbtn}>Checkout my resume</button>
+        <button className={styles.contactbtn}>Resume <a className={styles.link} target="_blank" rel="noreferrer" href={pdf}>PDF</a>
+        and <a className={styles.link} target="_blank" rel="noreferrer" href={docx}>DOCX</a> format</button>
       </div>
     </motion.div>
   )

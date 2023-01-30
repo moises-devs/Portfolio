@@ -45,6 +45,12 @@
     cursor:pointer;
 
   }
+  .link {
+    color:var(--accent1);
+  }
+  .link:hover {
+    color:black;
+  }
   @media (min-width:1024px) {
     .wrapper {
         margin: 1.5% 10%;

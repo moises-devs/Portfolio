@@ -14,7 +14,7 @@ function EducationCard(props) {
         </div>
         <div className={styles.carddetails}>
         <ul className={styles.details}>{props.children}</ul>
-        <a href={props.link}className={styles.cardbtn}>Visit Website</a>
+        <a href={props.link} target="_blank" rel="noreferrer" className={styles.cardbtn}>Visit Website</a>
         </div>
       </div>
     </div>

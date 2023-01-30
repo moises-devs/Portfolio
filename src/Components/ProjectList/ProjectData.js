@@ -10,11 +10,11 @@ export const data = [
   {
     id: 1,
     name: "EverDay Culture",
-    link: "https://everydayculture.shop/",
+    link: "https://peaceful-smakager-315ec1.netlify.app/",
     code: "https://github.com/moises-devs/everdayculture",
     img : everdayimg,
     description:
-      "Ecommerce Store fully reponsive and managed by Redux. This project emphasizes the use of React Router and state management in effort to build large applications. ",
+      "Ecommerce Store fully reponsive and managed by Redux. This project emphasizes the use of React Router and state management in effort to build large applications.\n Note: App may take a full minute to load at start due to backend setup. ",
     skills: [
         { name: "ReactJS", icon: <FaReact /> },
       { name: "Redux", icon: <SiRedux /> },

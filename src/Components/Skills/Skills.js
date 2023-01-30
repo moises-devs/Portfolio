@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Skills.module.css";
-import manDesk from "../../Assets/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.png";
+import manDesk from "../../Assets/personOnDesk.png";
 import SkillList from "./SkillList/SkillList";
 import { AiFillHtml5 } from "react-icons/ai";
 import {

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./CourseCard.module.css";
 function CourseCard(props) {
-  return <a className={styles.card} href={props.link} >
+  return <a className={styles.card} href={props.link} target="_blank" rel="noreferrer" >
     <div className={styles.imgwrapper}>
       <img src={props.img} alt={props.title}/>
     </div>

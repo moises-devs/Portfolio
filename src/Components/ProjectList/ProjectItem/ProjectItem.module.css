@@ -57,6 +57,7 @@
 .linkwrapper {
     margin:.5rem 0;
     position:relative;
+    display:flex;
 
 }
 .linktext {
@@ -79,7 +80,7 @@
         flex-flow:row nowrap;
         width:90%;
         align-items: flex-start;
-        height:340px;
+        height:400px;
     }
     .imgwrapper {
         height:100%;
