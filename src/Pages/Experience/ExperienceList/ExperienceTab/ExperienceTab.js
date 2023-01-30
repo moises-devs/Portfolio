@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "./ExperienceTab.module.css"
 function ExperienceTab(props) {
-    console.log(props);
   return (
     <div className={styles.wrapper}>
         {/* checking if we have full company data if not then just print description */}

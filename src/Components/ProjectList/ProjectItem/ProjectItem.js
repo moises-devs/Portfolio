@@ -3,7 +3,6 @@ import styles from "./ProjectItem.module.css"
 import { AiOutlineLink } from "react-icons/ai";
 import SkillList from '../../Skills/SkillList/SkillList';
 function ProjectItem(props) {
-    console.log(props);
   return (
     <div className={styles.cardwrapper}>
         <div className={styles.imgwrapper}>
