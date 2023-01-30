@@ -1,35 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cf65ca1.css",
-    "main.js": "/static/js/main.b1ee794d.js",
-    "static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.png": "/static/media/young_man_sitting_with_a_laptop_and_waving_her_hand.90da7124bd337136ca9d.png",
-    "static/media/Boy White T-Shirt-2.png": "/static/media/Boy White T-Shirt-2.718a9d3243828c6316c5.png",
-    "static/media/restaurant.png": "/static/media/restaurant.5377430b7c0cbf88e819.png",
-    "static/media/tiktok.png": "/static/media/tiktok.e558ba2350b7f5743296.png",
-    "static/media/everydayculture.png": "/static/media/everydayculture.24d8d3e22de4c52faba3.png",
-    "static/media/casual-life-3d-graduates-hat-and-books.png": "/static/media/casual-life-3d-graduates-hat-and-books.317e6e39f2a391910d38.png",
+    "main.css": "/static/css/main.95499b1f.css",
+    "main.js": "/static/js/main.a797322e.js",
+    "static/media/personGreeting.png": "/static/media/personGreeting.bbd4b8485e61e0e579c8.png",
+    "static/media/personStanding.png": "/static/media/personStanding.ef8f0e4af6170035e8fe.png",
+    "static/media/restaurant.png": "/static/media/restaurant.027016198d6d1721e15d.png",
+    "static/media/tiktok.png": "/static/media/tiktok.efb9406d5b869637b060.png",
+    "static/media/everydayculture.png": "/static/media/everydayculture.75753463f766e8321038.png",
     "static/media/2023ResumeMoisesFinal.pdf": "/static/media/2023ResumeMoisesFinal.526f2c2374333cab7be4.pdf",
-    "static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.png": "/static/media/casual-life-3d-side-view-of-man-sitting-in-front-of-laptop-and-talking-on-phone.9bf2e6a9b167532c8874.png",
-    "static/media/casual-life-3d-young-man-in-headset-using-computer.png": "/static/media/casual-life-3d-young-man-in-headset-using-computer.122fd7c9741a0d8280fa.png",
     "static/media/2023ResumeMoisesFinal.docx": "/static/media/2023ResumeMoisesFinal.79afc7ee4035a85418f2.docx",
-    "static/media/manworking.png": "/static/media/manworking.c6eaad7b7386739465e2.png",
     "static/media/davis.png": "/static/media/davis.4a40d53e1726b2f6e8fe.png",
-    "static/media/Primary-Horseweb.webp": "/static/media/Primary-Horseweb.42d501c1abc58a84e0f3.webp",
+    "static/media/desk.png": "/static/media/desk.e2aa35957b27c9c9c23f.png",
     "static/media/feedback.png": "/static/media/feedback.803473883dd57b35a593.png",
+    "static/media/personDeskCalling.png": "/static/media/personDeskCalling.a82a8b34657932f13f5e.png",
+    "static/media/personOnDesk.png": "/static/media/personOnDesk.ee2949f44b0be329ad9c.png",
+    "static/media/manworking.png": "/static/media/manworking.2f4b1cc67206f62ad3c8.png",
     "static/media/full-guided-compass-logo.png": "/static/media/full-guided-compass-logo.d9ace6fbd2d70d404e7b.png",
     "static/media/javascript-course-the-complete-guide.webp": "/static/media/javascript-course-the-complete-guide.10fda568f4c2ac46ad2a.webp",
     "static/media/react-course-the-complete-guide.webp": "/static/media/react-course-the-complete-guide.467aa395f2df0a2e9da9.webp",
-    "static/media/lightcap.png": "/static/media/lightcap.301a432c84132fd07009.png",
     "static/media/freecode.webp": "/static/media/freecode.952d9dd2ce20f0e759fe.webp",
     "static/media/exclamation-mark-svgrepo-com.svg": "/static/media/exclamation-mark-svgrepo-com.209d709b6d9ce109f248.svg",
     "static/media/exclamation-alert-svgrepo-com.svg": "/static/media/exclamation-alert-svgrepo-com.62f2a2bd60e36bf45322.svg",
-    "static/media/darkcap.svg": "/static/media/darkcap.a9736cb9ade8489781dc.svg",
     "index.html": "/index.html",
-    "main.1cf65ca1.css.map": "/static/css/main.1cf65ca1.css.map",
-    "main.b1ee794d.js.map": "/static/js/main.b1ee794d.js.map"
+    "main.95499b1f.css.map": "/static/css/main.95499b1f.css.map",
+    "main.a797322e.js.map": "/static/js/main.a797322e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cf65ca1.css",
-    "static/js/main.b1ee794d.js"
+    "static/css/main.95499b1f.css",
+    "static/js/main.a797322e.js"
   ]
 }
